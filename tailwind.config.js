@@ -1,14 +1,20 @@
 const colors = require('tailwindcss/colors')
 module.exports = {
   mode: 'jit',
+  darkMode: 'class',
 
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
       colors:{
-        'body-dark':'#141d2f',
-        'info':'#0079ff',
-        'dark-blue':'#1e2a47',
+        bodyDark:'#141d2f',
+        bodyLight:'#F6F8FF',
+        info:'#0079ff',
+        darkBlue:'#1e2a47',
+        lightWhite:'#fefefe',
+        textDark:'#4b6a9b',
+        blackDark:'#222731',
+ 
       },
       fontFamily:{
         'monospace': ['Space Mono', 'monospace']
